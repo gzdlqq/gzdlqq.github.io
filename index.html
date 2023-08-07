@@ -51,7 +51,7 @@
     </div>
     <script language="javascript">
         function timer() {
-          window.setTimeout("show_date_time()", 1000);
+          window.setTimeout("timer()", 1000);
           var start = new Date("2022-02-07 00:00:00"); 
             var t = new Date().getTime() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
